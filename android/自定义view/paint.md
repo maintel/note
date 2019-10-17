@@ -1,0 +1,2 @@
+- setAntiAlias 设置抗锯齿
+- 
