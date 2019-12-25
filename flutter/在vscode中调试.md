@@ -1,3 +1,14 @@
+# 显示布局边界
+
+在入口中配置
+
+```dart
+void main(){
+  debugPaintSizeEnabled=true;
+  runApp(new MyApp());
+}
+```
+
 # 配置调试项目
 
 如果当前目录下有多个 flutter 工程，vscode 默认的是第一个创建的。这个时候可以通过配置调试选项来选择调试不同的项目。
