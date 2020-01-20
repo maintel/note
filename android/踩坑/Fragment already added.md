@@ -134,7 +134,7 @@ fragmentTransaction
         ensureExecReady(true);
 
         boolean didSomething = false;
-        //
+        //这一步是获取需要执行的内容，
         while (generateOpsForPendingActions(mTmpRecords, mTmpIsPop)) {
             mExecutingActions = true;
             try {
@@ -333,4 +333,19 @@ if (!fragment.isAdded() && !getSupportFragmentManager().getFragments().contains(
 }
 ```
 
-但是经过测试发现上面的操作并没效果一样出现崩溃，究其原因其实是出在 commit 的机制上，上面的代码其实可以看出来 commit 的时候使用了 mHost.getHandler().post 来执行提交
+但是经过测试发现上面的操作并没效果一样出现崩溃，究其原因其实是出在 commit 的机制上，上面的代码其实可以看出来 commit 的时候使用了 mHost.getHandler().post 来执行提交，但是在刚打开 app 比较卡，这时候多次快速的切换 tab 就可能出现点击的时候检测 fragment 为未添加，实际在执行 add 操作的时候其实已经添加过了，实际就是出现了多次提交 add 的操作。
+
+# 解决办法
+
+最终的解决办法其实也很简单，在内存中自己维护一个已添加的 fragment 列表，在添加之前做一次检查。
+
+```java
+if (!fragment.isAdded() && !getSupportFragmentManager().getFragments().contains(fragment) && !addedFragments.contains(fragment)) {
+    fragmentTransaction
+            .hide(this.mCurrentFragment)
+            .add(R.id.activity_main_fragment_container, fragment,
+                    this.mLastSelectFragmentTag + "").show(fragment).commitAllowingStateLoss();
+    // 将已添加的 fragment 添加入列表，防止重复添加。
+    addedFragments.add(fragment);
+}
+```

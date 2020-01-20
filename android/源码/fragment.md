@@ -1,8 +1,8 @@
 commit
 
-FragmentTransaction.commitInternal 的实现在  BackStackState.commitAllowingStateLoss 
+FragmentTransaction.commitInternal 的实现在  BackStackRecord.commitAllowingStateLoss 
 
-最终调用了 BackStackState.commitInternal 方法在此方法中执行了：
+最终调用了 BackStackRecord.commitInternal 方法在此方法中执行了：
 
 ```java
         if (mAddToBackStack) {
