@@ -15,6 +15,46 @@
     `git config --global user.email "email"`
 
 
+# 配置多个 SSH 账户
+
+当已经有了一个公司的 gitlab 账户以后，要再配置一个 github 的，
+
+> ssh-keygen -t rsa -C "xxxx@xxx.com” -f github_rsa
+
+然后在 github 上配置好公钥，
+
+在 .ssh 下新建一个config 文件，然后配置不同账户的 host，
+
+    # github
+    Host github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile C:/Users/ll/.ssh/github_rsa
+    User maintel
+
+    # company
+    Host gerrit.company.net
+    Port 29418
+    HostName gerrit.company.net
+    PreferredAuthentications publickey
+    IdentityFile C:/Users/ll/.ssh/id_rsa
+    User xxxxx.xxx
+
+    # 配置文件参数
+    # Host : Host可以看作是一个你要识别的模式，对识别的模式，进行配置对应的的主机名和ssh文件（可以直接填写ip地址）
+    # HostName : 要登录主机的主机名（建议与Host一致）
+    # User : 登录名（如gitlab的username）
+    # IdentityFile : 指明上面User对应的identityFile路径
+    # Port: 端口号（如果不是默认22号端口则需要指定）
+
+经过配置以后git工程的默认账户就是公司的，想要针对不同的工程配置不同的账户名，可以在工程下执行
+
+> git config user.name xxx
+
+> git config user.email xxx@xxx.com
+
+执行过后，当前的工程账号就被切换到新的账户下。
+
 # 新建、切换、合并分支
 
 - 新建分支
