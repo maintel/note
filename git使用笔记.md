@@ -154,3 +154,11 @@ gitdir=$(git rev-parse --git-dir); scp -p -P 29418 jieyu.chen@gerrit.17zuoye.net
 错误提示：ssh: Could not resolve hostname gerrit.17zuoye.net: Name or service not known
 
 在 host 文件中加入 gerrit.17zuoye.net 的 ip 可解。
+
+# clone 代码遇到 The remote end hung up unexpectedly
+
+这个是因为网络太慢引起的
+
+> git config --global http.lowSpeedLimit 0
+> 
+> git config --global http.lowSpeedTime 999999
