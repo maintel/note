@@ -1,0 +1,1 @@
+由于 flutter 在设计之初就不支持 armeabi 架构的 cpu，若以如果原生工程无法修改的情况下就要介入 flutter 的编译过程来适配 armeabi。
