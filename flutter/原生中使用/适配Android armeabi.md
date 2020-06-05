@@ -103,10 +103,16 @@
 
 不过已经有人针对 1.12 版本做了适配（感谢 58同城 的技术）项目地址 https://github.com/wuba/magpie_sdk。
 
-将他们的armeabi 相关的 flutter 引擎包下载下来以后上传到自己的 maven 仓库，然后再在 flutter.gradle 的 repositories 中添加仓库地址就能正常打包了，正常使用了，
+将他们的armeabi 相关的 flutter 引擎包下载下来以后上传到自己的 maven 仓库，然后再在 flutter.gradle 的 addFlutterDependencies 方法中 repositories 中添加仓库地址就能正常打包了，正常使用了，
 
-        maven {
-            url "xxxxx"
+    project.rootProject.allprojects {
+
+        repositories {
+            maven {
+                url "xxxxx"
+            }
         }
+    }
 
-在上传 maven 仓库的时候需要注意的就是  flutter 引擎的版本包问题，如果不能确定当前 flutter 引擎的版本可以先跑一下 armeabi 的项目然后根据报错信息会提示缺少 `io.flutter:armeabi_debug:xxxx` 的依赖这样就可以获取到本版号了。
+
+在上传 maven 仓库的时候需要注意的就是  flutter 引擎的版本包问题，flutter 引擎的版本可以在 flutterRoot\bin\internal\engine.version 中查看。
