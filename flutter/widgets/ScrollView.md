@@ -6,6 +6,19 @@ CustomScrollView 则需要通过使用 sliver 来完成滑动，
 
 https://www.cnblogs.com/lxlx1798/p/11115573.html
 
+
+# 一些常用的可滚动组件
+
+- ListView
+- NestedScrollView
+  支持嵌套滚动
+- GridView
+- SingleChildScrollView
+  有一个子 Widget 的可滚动组件，子内容超过父容器时可滚动
+- ScrollView
+- CustomScrollView
+  也可以支持嵌套滚动，并控制每个组件的滚动效果
+
 # CustomScrollView
 
 CustomScrollView 通过使用 sliver 来完成嵌套滑动，它可以嵌套多个列表，每一个滚动列表都都应的有一个 sliver，如 listView 对应 SliverList 等。
