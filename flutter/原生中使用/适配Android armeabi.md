@@ -116,3 +116,16 @@
 
 
 在上传 maven 仓库的时候需要注意的就是  flutter 引擎的版本包问题，flutter 引擎的版本可以在 flutterRoot\bin\internal\engine.version 中查看。
+
+
+# 1.17.1 版本适配 
+
+将现有的 flutter 引擎的 v7a 版本拿来用
+
+
+
+1.22.6 版本 armeabi-v7a 下载地址 
+
+http://download.flutter.io/io/flutter/armeabi_v7a_debug/1.0.0-a1440ca392ca23e874a105c5f3248b495bd0e247/armeabi_v7a_debug-1.0.0-a1440ca392ca23e874a105c5f3248b495bd0e247.jar
+
+http://download.flutter.io/io/flutter/armeabi_v7a_release/1.0.0-a1440ca392ca23e874a105c5f3248b495bd0e247/armeabi_v7a_release-1.0.0-a1440ca392ca23e874a105c5f3248b495bd0e247.jar
