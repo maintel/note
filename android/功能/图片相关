@@ -1,0 +1,9 @@
+# Android Scaletype 源码分析及自定义 Matrix 缩放规则 
+
+Android 原本给出的 Scaletype 能完成大部分功能，但是有一些特殊的需求时不能很好的满足， 比如图片高度固定，动态修改宽度时保持图片居左进行剪裁，从而达到收缩展开的效果，通过自定义  Matrix 缩放规则 能很好的实现效果。
+
+参考下面这一篇文章：
+
+https://toutiao.io/posts/up2i71/preview
+
+但是此时在处理 warp_content 宽度时会直接充满父窗体，需要优化。
