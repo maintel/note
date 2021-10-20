@@ -6,12 +6,8 @@ root = os.walk(r"./")
 file = open('README.md', 'w')
 try:
     file.write('')
-    file.write("**总目录：**\n")
     length = 0
     for path,dir_list,file_list in root:  
-        # print("第一层")
-        # file.write('文件夹名称:' + path)
-        # 隐藏文件夹跳过
         if path.replace("./","").startswith(".") or path == './img':
             continue
         length = len(path.replace("./","").split('/'))
