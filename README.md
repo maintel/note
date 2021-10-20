@@ -87,6 +87,7 @@
 # [flutter](./flutter)
 
 - [多实例实践及一些想法](./flutter/多实例实践及一些想法.md)
+- [异步](./flutter/异步.md)
 - [编译](./flutter/编译.md)
 - [视图树](./flutter/视图树.md)
 - [优化](./flutter/优化.md)
