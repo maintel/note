@@ -31,7 +31,7 @@ try:
             if length == 1 and path == "./" and (not(dir_name.replace("./","").startswith(".") or dir_name == './img')):
                 file.write("- ["+dir_name +"](#" +dir_name.replace(" ","%20") + ")\n")
         for file_name in file_list:  
-            if file_name.endswith('.md'):
+            if file_name.endswith('.md') and not(file_name.startswith("README")):
                 if length > 2:
                     for i in range(length -1):
                         file.write(" ")

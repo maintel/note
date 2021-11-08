@@ -12,13 +12,13 @@
 - [android](#android)
 - [reactnative](#reactnative)
 - [前端](#前端)
-- [README](./README.md)
 
 # [tools](./tools)
 
 - [kibana查询](./tools/kibana查询.md)
 - [git使用笔记](./tools/git使用笔记.md)
 - [MarkDown指南](./tools/MarkDown指南.md)
+- [shell脚本](./tools/shell脚本.md)
 - [maven](./tools/maven.md)
 - [window](./tools/window.md)
 - [githubmarkdown语法](./tools/github%20markdown语法.md)
