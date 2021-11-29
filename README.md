@@ -96,6 +96,16 @@
 - [安装等](./flutter/安装等.md)
 - [在vscode中调试](./flutter/在vscode中调试.md)
 
+## [flutter/mac端开发](./flutter/mac端开发)
+
+- [右键事件](./flutter/mac端开发/右键事件.md)
+- [监控鼠标](./flutter/mac端开发/监控鼠标.md)
+- [窗口大小问题](./flutter/mac端开发/窗口大小问题.md)
+
+## [flutter/原理](./flutter/原理)
+
+- [Container宽高失效问题](./flutter/原理/Container宽高失效问题.md)
+
 ## [flutter/原生中使用](./flutter/原生中使用)
 
 - [Flutterboots](./flutter/原生中使用/Flutterboots.md)
