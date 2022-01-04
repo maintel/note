@@ -99,6 +99,8 @@
 ## [flutter/mac端开发](./flutter/mac端开发)
 
 - [右键事件](./flutter/mac端开发/右键事件.md)
+- [打包流程](./flutter/mac端开发/打包流程.md)
+- [脚本一键打包](./flutter/mac端开发/脚本一键打包.md)
 - [监控鼠标](./flutter/mac端开发/监控鼠标.md)
 - [窗口大小问题](./flutter/mac端开发/窗口大小问题.md)
 
