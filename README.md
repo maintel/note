@@ -100,6 +100,7 @@
 
 - [右键事件](./flutter/mac端开发/右键事件.md)
 - [打包流程](./flutter/mac端开发/打包流程.md)
+- [中文输入法输入异常问题](./flutter/mac端开发/中文输入法输入异常问题.md)
 - [脚本一键打包](./flutter/mac端开发/脚本一键打包.md)
 - [监控鼠标](./flutter/mac端开发/监控鼠标.md)
 - [窗口大小问题](./flutter/mac端开发/窗口大小问题.md)
@@ -126,6 +127,7 @@
 - [选择框](./flutter/widgets/选择框.md)
 - [button](./flutter/widgets/button.md)
 - [image](./flutter/widgets/image.md)
+- [文本处理](./flutter/widgets/文本处理.md)
 - [输入框](./flutter/widgets/输入框.md)
 - [show_hide](./flutter/widgets/show_hide.md)
 - [appBar](./flutter/widgets/appBar.md)
