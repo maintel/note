@@ -1,3 +1,4 @@
+- [apple](#apple)
 - [tools](#tools)
 - [javaEE](#javaEE)
 - [dart](#dart)
@@ -12,6 +13,10 @@
 - [android](#android)
 - [reactnative](#reactnative)
 - [前端](#前端)
+
+# [apple](./apple)
+
+- [本地库签名问题](./apple/本地库签名问题.md)
 
 # [tools](./tools)
 
@@ -99,6 +104,7 @@
 ## [flutter/mac端开发](./flutter/mac端开发)
 
 - [右键事件](./flutter/mac端开发/右键事件.md)
+- [原生输入事件研究](./flutter/mac端开发/原生输入事件研究.md)
 - [打包流程](./flutter/mac端开发/打包流程.md)
 - [中文输入法输入异常问题](./flutter/mac端开发/中文输入法输入异常问题.md)
 - [脚本一键打包](./flutter/mac端开发/脚本一键打包.md)
