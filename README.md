@@ -11,6 +11,7 @@
 - [interview](#interview)
 - [linux](#linux)
 - [android](#android)
+- [windows](#windows)
 - [reactnative](#reactnative)
 - [前端](#前端)
 
@@ -296,6 +297,10 @@
 ## [android/热修复](./android/热修复)
 
 - [Tinker集成](./android/热修复/Tinker集成.md)
+
+# [windows](./windows)
+
+- [静默屏幕截图开发](./windows/静默屏幕截图开发.md)
 
 # [reactnative](./reactnative)
 
