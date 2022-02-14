@@ -19,6 +19,10 @@
 
 - [本地库签名问题](./apple/本地库签名问题.md)
 
+## [apple/mac](./apple/mac)
+
+- [获取屏幕截图和窗口缩略图](./apple/mac/获取屏幕截图和窗口缩略图.md)
+
 # [tools](./tools)
 
 - [kibana查询](./tools/kibana查询.md)
@@ -301,6 +305,7 @@
 # [windows](./windows)
 
 - [静默屏幕截图开发](./windows/静默屏幕截图开发.md)
+- [获取窗口缩略图](./windows/获取窗口缩略图.md)
 
 # [reactnative](./reactnative)
 
