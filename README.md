@@ -18,6 +18,7 @@
 # [apple](./apple)
 
 - [本地库签名问题](./apple/本地库签名问题.md)
+- [图片压缩高斯模糊](./apple/图片压缩高斯模糊.md)
 
 ## [apple/mac](./apple/mac)
 
