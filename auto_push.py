@@ -12,4 +12,4 @@ os.system("git commit -m %s" %sys.argv[1])
 if sys.argv.__len__ == 2:
     os.system("git push origin %s" %sys.argv[2])
 else:
-    os.system("git push origin %s" "master")
+    os.system("git push origin master")
