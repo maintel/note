@@ -9,8 +9,7 @@ import sys
 os.system("python update_menu.py")
 os.system("git add .")
 os.system("git commit -m %s" %sys.argv[1])
-branch = sys.argv[2]
-if len(branch) == 0:
-    os.system("git push origin %s" "master")
-else:
+if sys.argv.__len__ == 2:
     os.system("git push origin %s" %sys.argv[2])
+else:
+    os.system("git push origin %s" "master")
