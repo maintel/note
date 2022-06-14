@@ -107,6 +107,10 @@
 - [安装等](./flutter/安装等.md)
 - [在vscode中调试](./flutter/在vscode中调试.md)
 
+## [flutter/桌面端](./flutter/桌面端)
+
+- [复制粘贴功能开发](./flutter/桌面端/复制粘贴功能开发.md)
+
 ## [flutter/mac端开发](./flutter/mac端开发)
 
 - [右键事件](./flutter/mac端开发/右键事件.md)
