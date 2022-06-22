@@ -1,5 +1,6 @@
 - [apple](#apple)
 - [tools](#tools)
+- [go](#go)
 - [javaEE](#javaEE)
 - [dart](#dart)
 - [ndk](#ndk)
@@ -39,6 +40,10 @@
 
 - [vscode-快捷键](./tools/plugins/vscode-快捷键.md)
 - [vscode](./tools/plugins/vscode.md)
+
+# [go](./go)
+
+- [go编译多平台可执行文件](./go/go编译多平台可执行文件.md)
 
 # [javaEE](./javaEE)
 
