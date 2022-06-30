@@ -25,6 +25,8 @@
 ## [apple/mac](./apple/mac)
 
 - [获取屏幕截图和窗口缩略图](./apple/mac/获取屏幕截图和窗口缩略图.md)
+- [SMJobBless使用](./apple/mac/SMJobBless使用.md)
+- [mac提权方案研究](./apple/mac/mac提权方案研究.md)
 
 # [tools](./tools)
 
