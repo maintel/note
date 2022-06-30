@@ -21,6 +21,7 @@
 - [静态库](./apple/静态库.md)
 - [本地库签名问题](./apple/本地库签名问题.md)
 - [图片压缩高斯模糊](./apple/图片压缩高斯模糊.md)
+- [archive产物变成了otherItems](./apple/archive产物变成了otherItems.md)
 
 ## [apple/mac](./apple/mac)
 
@@ -45,6 +46,7 @@
 
 # [go](./go)
 
+- [mac签名问题](./go/mac签名问题.md)
 - [go编译多平台可执行文件](./go/go编译多平台可执行文件.md)
 
 # [javaEE](./javaEE)
