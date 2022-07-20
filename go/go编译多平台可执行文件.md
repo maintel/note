@@ -49,3 +49,13 @@ func initVpn(params string) int {
     lipo -info libvpnall.a
 
 分别生成 x86 和 arm 指令集的静态库，然后再把两个静态库合并成一个。
+
+# windows
+
+    # 编译动态库
+    SET CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ GOOS=windows GOARCH=amd64
+    go build -o libvpn64.dll -buildmode=c-shared vpn.go
+
+    # 编译 exe
+    SET GOOS=windows GOARCH=amd64
+    go build -trimpath -o build/windows-amd64/core.exe -ldflags "-X main.Build=1.0.0 -H windowsgui" main.go

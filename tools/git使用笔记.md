@@ -55,6 +55,31 @@
 
 执行过后，当前的工程账号就被切换到新的账户下。
 
+# 配置多个 SSH 账户 第二种方式
+
+此种方式适合在同一域名下配置不同的ssh，比如在github下配置不同的账户。
+
+和上面的额方法类似，主要区别在 Host 的设置，如公司和个人可以分别下面设置
+
+
+    # GitHub
+    Host github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile path
+    User name
+
+    # GitHub
+    Host me.github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile path
+    User maintel
+
+host 一个为 github.com 一个为 me.github.com，通过这样的配置就给github设置了两个不同的账户。
+
+需要注意的是这时候使用自己的仓库的时要修改一下远程地址，不能直接使用 git@github.com:xxx/xx.git 了，而是要使用 git@me.github.com:xxx/xx.git。
+
 # 新建、切换、合并分支
 
 - 新建分支
