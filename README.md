@@ -120,17 +120,15 @@
 
 ## [flutter/桌面端](./flutter/桌面端)
 
+- [右键事件](./flutter/桌面端/右键事件.md)
+- [windows打包](./flutter/桌面端/windows打包.md)
+- [原生输入事件研究](./flutter/桌面端/原生输入事件研究.md)
+- [mac脚本一键打包](./flutter/桌面端/mac脚本一键打包.md)
+- [中文输入法输入异常问题](./flutter/桌面端/中文输入法输入异常问题.md)
+- [mac打包流程](./flutter/桌面端/mac打包流程.md)
+- [监控鼠标](./flutter/桌面端/监控鼠标.md)
 - [复制粘贴功能开发](./flutter/桌面端/复制粘贴功能开发.md)
-
-## [flutter/mac端开发](./flutter/mac端开发)
-
-- [右键事件](./flutter/mac端开发/右键事件.md)
-- [原生输入事件研究](./flutter/mac端开发/原生输入事件研究.md)
-- [打包流程](./flutter/mac端开发/打包流程.md)
-- [中文输入法输入异常问题](./flutter/mac端开发/中文输入法输入异常问题.md)
-- [脚本一键打包](./flutter/mac端开发/脚本一键打包.md)
-- [监控鼠标](./flutter/mac端开发/监控鼠标.md)
-- [窗口大小问题](./flutter/mac端开发/窗口大小问题.md)
+- [窗口大小问题](./flutter/桌面端/窗口大小问题.md)
 
 ## [flutter/原理](./flutter/原理)
 
