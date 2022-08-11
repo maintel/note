@@ -28,6 +28,7 @@
 - [获取屏幕截图和窗口缩略图](./apple/mac/获取屏幕截图和窗口缩略图.md)
 - [SMJobBless使用](./apple/mac/SMJobBless使用.md)
 - [mac提权方案研究](./apple/mac/mac提权方案研究.md)
+- [开启多进程并获取进程id](./apple/mac/开启多进程并获取进程id.md)
 
 # [tools](./tools)
 
@@ -320,6 +321,7 @@
 # [windows](./windows)
 
 - [静默屏幕截图开发](./windows/静默屏幕截图开发.md)
+- [管理员权限](./windows/管理员权限.md)
 - [获取窗口缩略图](./windows/获取窗口缩略图.md)
 
 # [reactnative](./reactnative)
