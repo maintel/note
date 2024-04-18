@@ -1,4 +1,6 @@
 - [apple](#apple)
+- [音视频](#音视频)
+- [网络](#网络)
 - [tools](#tools)
 - [go](#go)
 - [javaEE](#javaEE)
@@ -18,8 +20,10 @@
 
 # [apple](./apple)
 
+- [vpn](./apple/vpn.md)
 - [静态库](./apple/静态库.md)
 - [本地库签名问题](./apple/本地库签名问题.md)
+- [编译问题](./apple/编译问题.md)
 - [图片压缩高斯模糊](./apple/图片压缩高斯模糊.md)
 - [archive产物变成了otherItems](./apple/archive产物变成了otherItems.md)
 
@@ -29,6 +33,18 @@
 - [SMJobBless使用](./apple/mac/SMJobBless使用.md)
 - [mac提权方案研究](./apple/mac/mac提权方案研究.md)
 - [开启多进程并获取进程id](./apple/mac/开启多进程并获取进程id.md)
+- [macos内录功能实现](./apple/mac/macos%20内录功能实现.md)
+- [屏幕使用时长统计](./apple/mac/屏幕使用时长统计.md)
+
+# [音视频](./音视频)
+
+- [macos同声传译](./音视频/macos%20同声传译.md)
+
+# [网络](./网络)
+
+- [vpn开发总结](./网络/vpn开发总结.md)
+- [dns](./网络/dns.md)
+- [代理和VPN的区别](./网络/代理和VPN的区别.md)
 
 # [tools](./tools)
 
