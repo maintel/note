@@ -43,6 +43,7 @@
 - [开启多进程并获取进程id](./apple/mac/开启多进程并获取进程id.md)
 - [macos内录功能实现](./apple/mac/macos%20内录功能实现.md)
 - [屏幕使用时长统计](./apple/mac/屏幕使用时长统计.md)
+- [一些命令](./apple/mac/一些命令.md)
 
 </details>
 
