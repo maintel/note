@@ -34,23 +34,23 @@ try:
         dir_name = path.replace("./","").replace(" ","_")
         path = path.replace(" ","%20")
         if length == 1:
-            for i in range(detailStart):
-                spaces = " " * (detailStart - i - 1) * 4
-                file.write(spaces + "</details>\n\n")
-            detailStart = 0
+            # for i in range(detailStart):
+            #     spaces = " " * (detailStart - i - 1) * 4
+            #     file.write(spaces + "</details>\n\n")
+            # detailStart = 0
             file.write("## [" + dir_name + "]("+ path + ")\n")
-            file.write("\n<details>\n<summary>" + dir_name +"</summary>\n\n")
+            # file.write("\n<details>\n<summary>" + dir_name +"</summary>\n\n")
             detailStart = detailStart + 1
             print(file_list)
             for file_name in file_list:
                 file.write("- [" + file_name + "]("+ path + "/" + file_name.replace(" ","%20") + ")\n")
         elif length == 2:
-            if detailStart >= 2:
-                detailStart = detailStart - 1
-                file.write("    </details>\n\n")               
+            # if detailStart >= 2:
+            #     detailStart = detailStart - 1
+            #     file.write("    </details>\n\n")               
             file.write("- [" + dir_name + "]("+ path + ")\n")
-            file.write("\n    <details>\n    <summary>" + dir_name +"</summary>\n\n")
-            detailStart = detailStart + 1
+            # file.write("\n    <details>\n    <summary>" + dir_name +"</summary>\n\n")
+            # detailStart = detailStart + 1
             print(file_list)
             for file_name in file_list:
                 file.write("    - [" + file_name + "]("+ path + "/" + file_name.replace(" ","%20") + ")\n")
@@ -61,8 +61,8 @@ try:
         
         print("==================")
 
-    for i in range(detailStart):
-        spaces = " " * (detailStart - i - 1) * 4
-        file.write(spaces + "</details>\n\n")   
+    # for i in range(detailStart):
+    #     spaces = " " * (detailStart - i - 1) * 4
+    #     file.write(spaces + "</details>\n\n")   
 finally:
     file.close()      
